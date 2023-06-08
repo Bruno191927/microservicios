@@ -50,3 +50,5 @@ npm run start:dev
 ```
 
 
+### api
+* puedes usar la coleccion postman adjunta

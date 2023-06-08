@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "8257d856-91e0-4814-b9b8-0ab9d398bd20",
+		"name": "prueba",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "7649464"
+	},
+	"item": [
+		{
+			"name": "cliente",
+			"item": []
+		},
+		{
+			"name": "crear_cliente",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"firstName\": \"Luis\",\r\n    \"lastName\": \"Aguirre\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:3000/api/cliente",
+				"description": "dasd"
+			},
+			"response": []
+		},
+		{
+			"name": "crear_reclamo",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"tipo\": \"denuncia\",\r\n  \"descripcion\": \"los chicos de ti esta jugando dragonbound\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "localhost:3000/api/reclamo",
+				"description": "dasd"
+			},
+			"response": []
+		}
+	]
+}
