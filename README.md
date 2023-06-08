@@ -16,6 +16,19 @@ npm i -g @nestjs/cli
     ```bash
     docker-compose up
     ```
+## Clonar los proyectos
+* api-microservice
+```bash
+    git clone https://github.com/Bruno191927/api-microservice.git
+```
+* cliente-microservice
+```bash
+    git clone https://github.com/Bruno191927/cliente-microservice.git
+```
+* reclamo-microservice
+```bash
+    git clone https://github.com/Bruno191927/reclamo-microservice.git
+```
 ## Correr los proyectos
 ### Base de datos
 * Entrar al proyecto cliente-microservice y ejecutar
